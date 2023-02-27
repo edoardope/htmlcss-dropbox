@@ -26,6 +26,12 @@ table{
     border: 1px solid black;
 }
 
+/* border */
+
+.b-1px-solid-grey{
+    border: 1px solid grey;
+}
+
 /* display */
 
 .block{
@@ -64,12 +70,16 @@ table{
 
 /* flex basis */
 
-.flex-basis-50perc{
-    flex-basis: 50%;
+.flex-basis-30perc{
+    flex-basis: 30%;
 }
 
 .flex-basis-40perc{
     flex-basis: 40%;
+}
+
+.flex-basis-50perc{
+    flex-basis: 50%;
 }
 
 .flex-basis-60perc{
@@ -77,6 +87,10 @@ table{
 }
 
 /* background color */
+
+.bg-color-white{
+    background-color: white;
+}
 
 .bg-color-blue{
     background-color: blue;
@@ -98,12 +112,28 @@ table{
     margin-top: 5px;
 }
 
+.margin-top-15px{
+    margin-top: 15px;
+}
+
+.margin-top-30px{
+    margin-top: 15px;
+}
+
 .margin-top-100px{
     margin-top: 100px;
 }
 
+.margin-top-2vh{
+    margin-top: 2vh;
+}
+
 .margin-top-3vh{
     margin-top: 3vh;
+}
+
+.margin-top-4vh{
+    margin-top: 4vh;
 }
 
 .margin-top-5vh{
@@ -317,6 +347,14 @@ he
     padding-top: 20px;
 }
 
+.padding-top-30px{
+    padding-top: 30px;
+}
+
+.padding-top-40px{
+    padding-top: 40px;
+}
+
 /* padding bottom */
 
 .padding-bottom-3px{
@@ -349,6 +387,10 @@ he
     padding-left: 20px;
 }
 
+.padding-left-30px{
+    padding-left: 30px;
+}
+
 .padding-left-18perc{
     padding-left: 18%;
 }
@@ -357,7 +399,19 @@ he
     padding-left: 20%;
 }
 
+.padding-left-22perc{
+    padding-left: 22%;
+}
+
 /* padding right */
+
+.padding-right-20px{
+    padding-right: 20px;
+}
+
+.padding-right-30px{
+    padding-right: 30px;
+}
 
 .padding-right-18perc{
     padding-right: 18%;
@@ -367,16 +421,27 @@ he
     padding-right: 20%;
 }
 
+.padding-right-22perc{
+    padding-right: 22%;
+}
+
+
 /* position */
 
 .sticky{
     position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 /* color */
 
 .white{
     color: white;
+}
+
+.grey{
+    color: rgb(165, 165, 165);
 }
 
 /* font size */
@@ -395,6 +460,22 @@ he
 
 .font-size-1-6vh{
     font-size: 1.6vh
+}
+
+.font-size-2vh{
+    font-size: 2vh;
+}
+
+.font-size-3vh{
+    font-size: 3vh;
+}
+
+.font-size-3-5vh{
+    font-size: 3.5vh;
+}
+
+.font-size-4vh{
+    font-size: 4vh;
 }
 
 .font-size-6vh{
@@ -430,3 +511,7 @@ he
 .list-style-none{
     list-style: none;
 }
+
+/* custom element */
+
+/* radio */
