@@ -514,4 +514,63 @@ he
 
 /* custom element */
 
-/* radio */
+/* nav bar model 1 */
+
+.nav-stiky-1{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    position: sticky;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    background-color: white;
+}
+
+.nav-sec-1{
+    width: 50%;
+    display: flex;
+}
+
+.nav-sec-2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .margin-5px{
+    margin: 5px;
+} */
+
+/* .inline{
+    display: inline;
+} */
+
+.nav-li{
+    display: inline;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-size: 1.3vh;
+}
+
+#nav-li-last{
+    margin-right: 20px;
+}
+
+/* .text-decoration-none{
+    text-decoration: none;
+} */
+
+.nav-button-box{
+    background-color: blue;
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-right: 30px;
+}
+
+/* .white{
+    color: white;
+} */
+
+/* fine nav bar model 1 */
