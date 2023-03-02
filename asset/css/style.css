@@ -123,6 +123,17 @@ table{
 .margin-top-100px{
     margin-top: 100px;
 }
+.margin-top-0-8vh{
+    margin-top: 0.8vh;
+}
+
+.margin-top-1vh{
+    margin-top: 1vh;
+}
+
+.margin-top-1-5vh{
+    margin-top: 1.5vh;
+}
 
 .margin-top-2vh{
     margin-top: 2vh;
@@ -164,6 +175,14 @@ table{
 
 .margin-bottom-50px{
     margin-bottom: 50px ;
+}
+
+.margin-bottom-1vh{
+    margin-bottom: 1vh ;
+}
+
+.margin-bottom-2vh{
+    margin-bottom: 2vh ;
 }
 
 .margin-bottom-4vh{
@@ -229,6 +248,10 @@ table{
 
 .min-height-200px{
     min-height: 200px;
+}
+
+.height-2-3vh{
+    height: 2.3vh;
 }
 
 .height-5vh{
@@ -440,6 +463,10 @@ he
     color: white;
 }
 
+.lightgrey{
+    color: lightgrey;
+}
+
 .grey{
     color: rgb(165, 165, 165);
 }
@@ -521,56 +548,548 @@ he
     justify-content: space-between;
     height: 5vh;
     position: sticky;
+    top: 0;
     align-items: center;
     font-family: 'Varela Round', sans-serif;
     background-color: white;
+    z-index: 9999999;
 }
 
 .nav-sec-1{
     width: 50%;
     display: flex;
+    line-height: 4.5vh;
 }
 
 .nav-sec-2{
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    line-height: 4.5vh;
 }
 
-/* .margin-5px{
-    margin: 5px;
-} */
-
-/* .inline{
-    display: inline;
-} */
+.nav-logo-box{
+    margin-left: 30px;
+    margin-top: 1.1vh;
+}
 
 .nav-li{
     display: inline;
-    margin-bottom: 5px;
     margin-left: 50px;
     font-size: 1.3vh;
+    height: 5vh;
+    display: inline-block;
 }
 
-#nav-li-last{
-    margin-right: 20px;
-}
+nav div div ul li:hover{
+    border-bottom: 1px solid black;
 
-/* .text-decoration-none{
-    text-decoration: none;
-} */
+}
 
 .nav-button-box{
     background-color: blue;
-    width: 80px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    margin-right: 30px;
+    line-height: 2.5vh;
+    height: 2.5vh;
+    margin-top: 1.4vh;
+    width: 5vw;
+    text-align: center;
+    margin-right: 2vw;
+    font-size: 1.3vh;
 }
 
-/* .white{
-    color: white;
-} */
+/* 
+
+alte inserite: 
+
+-height-2-3vh
+
+-inline
+
+-margin-5px
+
+-text-decoration-none
+
+-margin-right-20px
+
+-white
+
+*/
 
 /* fine nav bar model 1 */
+
+/* header model 1 */
+
+.header-1{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 62vh;
+    width: 100%;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header-title-box{
+    height: 200px;
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+.header-button-box{
+    display: block;
+    font-size: 1.3vh;
+    margin-top: 5vh;
+    width: 18vh;
+    text-align: center;
+}
+
+.header-button-text{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-arrow{
+    display: block;
+    margin-top: 7vh;
+    font-size: 6vh;
+}
+
+/* 
+
+altre inserite: 
+
+-font-size-7vh
+
+-flex
+
+-height-40vh
+
+-width-30perc
+
+-font-size-1-3vh
+
+*/
+
+/* fine header model 1 */
+
+/* trova il piano business che fa per te */
+
+.pb-container{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.pb-title{
+    margin-top: 11vh;
+    font-size: 3.5vh;
+}
+
+.pb-3columns-container{
+    display: flex;
+    margin-top: 4vh;
+    justify-content: space-between;
+}
+
+.pb-columns{
+    flex-basis: 30%;
+    border: 1px solid grey;
+}
+
+.pb-columns-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    font-size: 1.3vh;
+}
+
+.pb-columns-contents{
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.pb-button-box{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5vh;
+    background-color: blue;
+    display: block;
+    text-align: center;
+}
+
+.pb-button-text{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vh;
+}
+
+.pb-buy-now{
+    display: block;
+    font-size: 1.3vh;
+    margin-top: 2vh;
+}
+
+.pb-important-point-title{
+    display: block;
+    margin-top: 5vh;
+    font-size: 1.3vh;
+}
+
+.pb-ul{
+    margin-top: 2vh;
+    font-size: 1vh;
+    list-style: none;
+}
+
+.pb-ul li::before{
+    content: '';
+    display: inline-block;
+    height: 2vh;
+    width: 2vw;
+    background-image: url('../img/tick.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+    position: relative;
+    top: 0.6vh;
+    left: 1vh;
+}
+
+.pb-enterprise{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin-top: 4vh;
+    padding-bottom: 3vh;
+}
+
+.pb-enterprise-first{
+   flex-basis: 65%;
+   padding-top: 4vh;
+   padding-left: 2vw;
+}
+
+.pb-enterprise-second{
+    flex-basis: 35%;
+    padding-top: 3vh;
+    padding-right: 2vh;
+    padding-left: 6vw;
+}
+
+.pb-button-box2{
+    width: 22vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    display: block;
+    text-align: center;
+}
+
+/* 
+
+altre inserite: 
+
+-margin-top-2vh
+
+-margin-top-5vh
+
+-margin-left-50px
+
+-block
+
+-font-size-1-3vh
+
+-font-size-2vh
+
+-grey
+
+-flex
+
+*/
+
+/* fine trova il piano business che fa per te */
+
+/* get in touch */
+
+.git-container{
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 10vh;
+}
+
+.git-img-b{
+    flex-basis: 60%;
+    height: 45vh;
+}
+
+.git-text-box{
+    flex-basis: 40%;
+    padding-top: 5vh;
+    padding-left: 4vh;
+}
+
+.git-button{
+    margin-top: 3vh;
+    display: block;
+    text-align: center;
+    width: 9vw;
+    border: 1px solid grey;
+    color: grey;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 2px black
+}
+
+/* fine get in touch */
+
+/* esegui più operazioni */
+
+.epo-container{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.epo-title{
+    margin-top: 11vh;
+    font-size: 3.5vh;
+}
+
+.epo-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.epo-card{
+    flex-basis: 30%;
+    margin-top: 4vh;
+}
+
+/* fine esegui più operazioni */
+
+/* più di 500.000 team */
+
+.pd5-container{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 22%;
+    padding-right: 40%;
+}
+
+.pd5-title{
+    margin-top: 15vh;
+    font-size: 3.5vh;
+}
+
+/* fine più di 500.000 team */
+
+/* brand area */
+
+.ba-container{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.ba-4box{
+    flex-basis: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ba-img{
+    filter: invert(100%) sepia(0%) saturate(7467%) hue-rotate(48deg) brightness(110%) contrast(100%);
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+.ba-img2{
+    filter: invert(100%) sepia(0%) saturate(7467%) hue-rotate(48deg) brightness(110%) contrast(100%);
+    margin-top: 42%;
+    margin-left: 21%;
+}
+
+.ba-box{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: lightgreen;
+}
+
+.ba-box2{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(99, 11, 11);
+}
+
+.ba-box3{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(8, 166, 194);
+}
+
+.ba-box4{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.ba-box5{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.ba-box6{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(136, 136, 136);
+}
+
+.ba-box7{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(3, 27, 134);
+}
+
+.ba-box8{
+    flex-basis: 50%;
+    height: 25vh;
+    background-color: rgb(251, 255, 0);
+}
+
+.ba-central{
+    flex-basis: 33.3%;
+    background-color: lightgray;
+    padding: 2vw;
+}
+
+.ba-tex-e-button{
+    padding-left: 22%;
+    background-color: aquamarine;
+    display: flex;
+    padding-top: 5%;
+    padding-right: 22%;
+    padding-bottom: 5%;
+}
+
+.ba-text{
+    color: indigo;
+    flex-basis: 50%;
+}
+
+.ba-title{
+    font-size: 3.5vh;
+}
+
+.ba-button-box{
+    flex-basis: 50%;
+}
+
+.ba-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    font-size: 1.3vh;
+    text-decoration: none;
+    margin-top: 1vh;
+    display: block;
+    text-align: center;
+    width: 9vw;
+    margin-left: 9vw;
+}
+
+/* fine brand area */
+
+/* frequent question */
+
+.fq-container{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 10vh;
+    height: 50vh;
+}
+
+.fq-title{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    font-size: 3.5vh;
+}
+
+.fq-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.fq-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 1000px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.fq-dropdown:hover .fq-dropdown-content {
+    display: block
+}
+
+/* fine frequent question */
+
+/* footer */
+
+.foot-container{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7vh;
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-column{
+    flex-basis: 12%;
+}
+
+.foot-title{
+    font-size: 1.3vh;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 2vh;
+    display: block;
+}
+
+.foot-column hr{
+    margin-top: 10vh;
+}
+
+/* fine footer */
+
+a{
+    transition: 1s;
+}
+
+a:hover{
+    filter: brightness(0.4);
+}

@@ -6,6 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="asset/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
      <title>Document</title>
  </head>
 
@@ -13,8 +14,8 @@
      <!-- Inizio nav bar -->
      <nav class="nav-stiky-1">
          <div class="nav-sec-1">
-              <div class="margin-left-30px margin-top-5px">
-                  <img src="asset/img/logo-small.png" alt="logo" height="25vh">
+              <div class="nav-logo-box">
+                  <img src="asset/img/logo-small.png" alt="logo" class="height-2-3vh">
               </div>
               <div class="margin-5px">
                   <ul class="inline">
@@ -29,29 +30,27 @@
                   <ul class="inline">
                     <li class="nav-li"><a href="" class="text-decoration-none">Supporto</a></li>
                     <li class="nav-li"><a href="" class="text-decoration-none">Contatta l'ufficio vendite</a></li>
-                    <li class="nav-li" id="nav-li-last"><a href="" class="text-decoration-none">Accedi</a></li>
+                    <li class="nav-li margin-right-20px"><a href="" class="text-decoration-none">Accedi</a></li>
                   </ul>
               </div>
-              <div class="nav-button-box">
-                  <a href="" class="white text-decoration-none">Inizia</a>
-              </div>
+              <a href="" class="nav-button-box white text-decoration-none">Inizia</a>
          </div>
      </nav>
      <!-- Fine nav bar -->
 
      <!-- inizio header -->
-     <header class="bg-color-lightblue height-62vh width-100perc flex column padding-left-18perc padding-right-18perc varela-round">
+     <header class="header-1">
         <!-- titolo -->
-        <div class="height-200px width-100perc margin-top-5vh margin-bottom-4vh">
+        <div class="header-title-box">
              <h1 class="font-size-7vh">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
         </div>
         <!-- sottotitolo e img -->
         <div class="flex height-40vh">
             <div class="width-30perc">
                <p class="font-size-1-3vh">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, modi veniam animi, quos iste ipsam soluta illum quibusdam praesentium quaerat consequuntur, quam maxime voluptas. Laboriosam eos ipsa maxime nihil porro.</p>
-               <span class="block font-size-1-3vh margin-top-5vh"><a href="" class="bg-color-blue padding-10px white text-decoration-none">Inizia la tua prova gratuita</a></span>
-               <span class="block font-size-1-3vh margin-top-5vh">Annulla in qualsiasi momento</span>
-               <span class="block margin-top-7vh font-size-6vh"> &#8595; </span>
+               <a href="" class="header-button-box header-button-text">Inizia la tua prova gratuita</a>
+               <span class="header-button-box">Annulla in qualsiasi momento</span>
+               <span class="header-arrow"> &#8595; </span>
             </div>
             <div class="width-70perc">
               <img src="asset/img/jumbo.png" alt="banner img" height="110%" width="100%">
@@ -61,60 +60,277 @@
      <!-- fine header -->
 
      <!-- inizio sezione trova il piano business che fa per te -->
-     <section class="debug varela-round padding-left-22perc padding-right-22perc">
+     <section class="pb-container">
         <!-- titolo e option -->
         <div>
-            <h2 class="margin-top-11vh font-size-3-5vh">Trova il piano business che fa per te</h2>
-            <span class="margin-top-5vh block">
+            <h2 class="pb-title">Trova il piano business che fa per te</h2>
+            <span class="margin-top-5vh font-size-1-3vh block">
                 <input type="radio" name="Fatturazione mensile" id="" class="font-size-1-3vh"> Fatturazione mensile 
                 <input type="radio" name="Fatturazione annuale" id="" class="font-size-1-3vh margin-left-50px"> Fatturazione annuale
             </span>
         </div>
         <!-- 3 colonne -->
-        <div class="flex margin-top-4vh space-between">
+        <div class="pb-3columns-container">
             <!-- prima colonna -->
-            <div class="flex-basis-30perc b-1px-solid-grey height-800px">
-                <span class="block width-100perc t-align-center b-1px-solid-grey padding-10px font-size-1-3vh">Singolo</span>
-                <div class="height-100perc width-100perc padding-left-30px padding-right-30px padding-top-40px">
+            <div class="pb-columns">
+                <span class="pb-columns-title"><i class="fa-solid fa-user"></i> Singolo</span>
+                <div class="pb-columns-contents">
                     <h3 class="font-size-2vh">Professional</h3>     
                     <span class="block font-size-1-3vh margin-top-2vh"><strong>€ 12.00</strong></span>
                     <span class="block grey font-size-1vh margin-top-2vh">/mese</span>
                     <span class="block font-size-1vh margin-top-5vh">3 o più utenti</span>
                     <span class="block font-size-1vh margin-top-2vh">5 TB di spazio di archiviazione sicuro</span>
                     <span class="block font-size-1vh margin-top-2vh">Funzione di produttività premium e condivisione file semplice e sicura</span>
-                    <span class="width-100perc padding-left-20px padding-right-20px padding-top-10px padding-bottom-10px margin-top-5vh bg-color-blue block t-align-center"> <a href="" class="white text-decoration-none font-size-1-3vh">Prova gratis per 30 giorni</a></span>
-                    
+                    <a href="" class="pb-button-box pb-button-text">Prova gratis per 30 giorni</a>
+                    <span class="pb-buy-now">oppure <a href="" >acquista ora</a></span>
+                    <hr class="width-20perc margin-top-3vh lightgrey">
+                    <span class="pb-important-point-title"><strong>Punti Salienti del piano</strong></span>
+                    <ul class="pb-ul">
+                         <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                         <li class="margin-top-1vh margin-bottom-4vh">Cartelle offline su dispositivi mobili</li>
+                    </ul>
                 </div>
             </div>
             <!-- seconda colonna -->
-            <div class="flex-basis-30perc b-1px-solid-grey height-800px">
-                <span class="block width-100perc t-align-center b-1px-solid-grey padding-10px font-size-1-3vh">Team</span>
-                <div class="height-100perc width-100perc padding-left-30px padding-right-30px padding-top-40px">
+            <div class="pb-columns">
+                <span class="pb-columns-title"><i class="fa-solid fa-users"></i> Team</span>
+                <div class="pb-columns-contents">
                     <h3 class="font-size-2vh">Advanced</h3>
                     <span class="block font-size-1-3vh margin-top-2vh"><strong>€ 18.00</strong></span>
                     <span class="block grey font-size-1vh margin-top-2vh">/utente/mese</span> 
                     <span class="block font-size-1vh margin-top-5vh">3 o più utenti</span>
                     <span class="block font-size-1vh margin-top-2vh">5 TB di spazio di archiviazione sicuro</span>
                     <span class="block font-size-1vh margin-top-2vh">Funzione di produttività premium e condivisione file semplice e sicura</span>
-                    <span class="width-100perc padding-left-20px padding-right-20px padding-top-10px padding-bottom-10px margin-top-5vh bg-color-blue block t-align-center"> <a href="" class="white text-decoration-none font-size-1-3vh">Prova gratis per 30 giorni</a></span>
+                    <a href="" class="pb-button-box pb-button-text">Prova gratis per 30 giorni</a>
+                    <span class="pb-buy-now">oppure <a href="" >acquista ora</a></span>
+                    <hr class="width-20perc margin-top-3vh lightgrey">
+                    <span class="pb-important-point-title"><strong>Punti Salienti del piano</strong></span>
+                    <ul class="pb-ul">
+                         <li>Nessun limite di spazio per i file</li>
+                         <li class="margin-top-1vh">Cartelle offline su dispositivi mobili</li>
+                         <li class="margin-top-1vh">Risparmio del 50% rispetto alle iscrizioni singole</li>
+                         <li class="margin-top-1vh">Possibilità di inserire nuovi membri del team</li>
+                         <li class="margin-top-1vh margin-bottom-4vh">Gestione dei permessi in base ai ruoli</li>
+                    </ul>
                 </div>
             </div>
             <!-- terza colonna -->
-            <div class="flex-basis-30perc b-1px-solid-grey height-800px">
-                <span class="block width-100perc t-align-center b-1px-solid-grey padding-10px font-size-1-3vh">Azienda</span>
-                <div class="height-100perc width-100perc padding-left-30px padding-right-30px padding-top-40px">
+            <div class="pb-columns">
+                <span class="pb-columns-title"><i class="fa-sharp fa-solid fa-building"></i> Azienda</span>
+                <div class="pb-columns-contents">
                     <h3 class="font-size-2vh">Enterprise</h3>
                     <span class="block font-size-1-3vh margin-top-2vh"><strong>Contattaci</strong></span>
                     <span class="block grey font-size-1vh margin-top-2vh">-</span>
                     <span class="block font-size-1vh margin-top-5vh">3 o più utenti</span>
                     <span class="block font-size-1vh margin-top-2vh">5 TB di spazio di archiviazione sicuro</span>
                     <span class="block font-size-1vh margin-top-2vh">Funzione di produttività premium e condivisione file semplice e sicura</span>
-                    <span class="width-100perc padding-left-20px padding-right-20px padding-top-10px padding-bottom-10px margin-top-5vh bg-color-blue block t-align-center"> <a href="" class="white text-decoration-none font-size-1-3vh">Prova gratis per 30 giorni</a></span>
+                    <a href="" class="pb-button-box pb-button-text">Prova gratis per 30 giorni</a>
+                    <span class="pb-buy-now">oppure <a href="" >acquista ora</a></span>
+                    <hr class="width-20perc margin-top-3vh lightgrey">
+                    <span class="pb-important-point-title"><strong>Punti Salienti del piano</strong></span>
+                    <ul class="pb-ul">
+                         <li>Cartelle offline su dispositivi mobili</li>
+                         <li class="margin-top-1vh">Servizio di assistenza 24/h</li>
+                         <li class="margin-top-1vh margin-bottom-4vh">Possibilità di personalizzazione totale</li>
+                    </ul>
                 </div>
             </div>
         </div>
         <!-- enterprise -->
+        <div class="pb-enterprise">
+            <span class="pb-columns-title">Team</span>
+            <div class="flex width-100perc">
+                <div class="pb-enterprise-first">
+                    <h3 class="font-size-2vh">Enterprise</h3>
+                    <span class="block font-size-1-3vh margin-top-1-5vh"><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
+                    <span class="block font-size-1vh margin-top-5vh">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
+                </div>
+                <div class="pb-enterprise-second">
+                    <a href="" class="pb-button-box2 pb-button-text">Prova gratis per 30 giorni</a>  
+                </div> 
+            </div>
+        </div>
+     </section>
+        <!-- fine sezione trova il piano business che fa per te -->
 
+        <!-- inizio entra in contatto -->
+     <section class="git-container">
+        <div class="git-img-b">
+           <img src="asset/img/partner.png" alt="" height="100%" width="100%"> 
+        </div>
+        <div class="git-text-box">
+            <h3 class="font-size-2vh">Entra in contatto con un partner Dropbox</h3>
+            <p class="font-size-1-3vh margin-top-1-5vh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti sequi doloribus eos, esse ipsum itaque delectus magnam tempore distinctio quae similique ipsa ullam hic obcaecati amet sint quisquam aspernatur.</p>
+            <a href="" class="git-button">Trova un partner</a>
+        </div>
+     </section>
+       <!-- fine entra in contatto -->
+
+       <!-- inizio esegui più operazioni -->
+     <section class="epo-container">
+        <h2 class="epo-title">Esegui più operazioni con Dropbox Business</h2>
+        <div class="epo-card-container">
+            <div class="epo-card">
+                <img src="asset/img/business-feature-switching-tools.png" alt="" height="65%" width="100%">
+                <h3 class="font-size-2vh">Passa di meno da uno strumento all'altro</h3>
+                <p class="font-size-1-3vh margin-top-2vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            </div>
+            <div class="epo-card">
+                <img src="asset/img/business-feature-send-files-it.png" alt="" height="65%" width="100%">
+                <h3 class="font-size-2vh">Passa di meno da uno strumento all'altro</h3>
+                <p class="font-size-1-3vh margin-top-2vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            </div>
+            <div class="epo-card">
+                <img src="asset/img/business-feature-security.png" alt="" height="65%" width="100%">
+                <h3 class="font-size-2vh">Passa di meno da uno strumento all'altro</h3>
+                <p class="font-size-1-3vh margin-top-2vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            </div>
+            <div class="epo-card">
+                <img src="asset/img/business-feature-coordinate-it.png" alt="" height="65%" width="100%">
+                <h3 class="font-size-2vh">Passa di meno da uno strumento all'altro</h3>
+                <p class="font-size-1-3vh margin-top-2vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            </div>
+            <div class="epo-card">
+                <img src="asset/img/business-feature-integrations-it.png" alt="" height="65%" width="100%">
+                <h3 class="font-size-2vh">Passa di meno da uno strumento all'altro</h3>
+                <p class="font-size-1-3vh margin-top-2vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            </div>
+            <div class="epo-card">
+                <img src="asset/img/business-feature-multi-device.png" alt="" height="65%" width="100%">
+                <h3 class="font-size-2vh">Passa di meno da uno strumento all'altro</h3>
+                <p class="font-size-1-3vh margin-top-2vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            </div>
+        </div>     
+     </section> 
+       <!-- fine esegui più operazioni --> 
+
+       <!-- più di 500.000 team -->
+     <section class="pd5-container">
+        <h2 class="pd5-title">Più di 500.000 team utilizzano Dropbox Business</h2>
+        <a href="" class="block margin-top-5vh font-size-1-3vh">Scopri di più sui nostri clienti</a>  
+     </section> 
+       <!-- fine più di 500.000 team --> 
+
+       <!-- brand area -->
+     <section class="ba-container">
+        <div class="ba-4box">
+            <span class="ba-box">
+                <img class="ba-img" src="asset/img/designit.svg" alt="" height="50%" width="50%">
+            </span>
+            <div class="ba-box2">
+                <img class="ba-img" src="asset/img/arizona_state_university.svg" alt="" height="50%" width="50%">
+            </div>
+            <div class="ba-box3">
+                <img class="ba-img2" src="asset/img/university_of_florida.svg" alt="" height="10%" width="50%">
+            </div>
+            <div class="ba-box4">
+                <img class="ba-img" src="asset/img/topps.svg" alt="" height="50%" width="50%">
+            </div>           
+        </div>
+        <div class="ba-central">
+            <img src="asset/img/designit.svg" alt="" height="20%" width="50%">
+            <p class="font-size-1-3vh margin-top-2vh margin-top-5vh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit itaque suscipit minima et ipsa, omnis nisi sapiente eaque, animi voluptatibus iusto deleniti provident placeat odio! Esse quod vitae laboriosam vero?</p>
+            <span class="block font-size-1-3vh margin-top-2vh margin-top-5vh">Morten Thomsen, Global IT Lead</span>
+        </div>
+        <div class="ba-4box">
+            <span class="ba-box5">
+                <img class="ba-img" src="asset/img/world_bicycle_relief.svg" alt="" height="50%" width="50%">
+            </span>
+            <div class="ba-box6">
+                <img class="ba-img" src="asset/img/hearst_corp.svg" alt="" height="50%" width="50%">
+            </div>
+            <div class="ba-box7">
+                <img class="ba-img2" src="asset/img/lonely_planet.svg" alt="" height="20%" width="50%">
+            </div>
+            <div class="ba-box8">
+                <img class="ba-img" src="asset/img/clear_channel.svg" alt="" height="50%" width="50%">
+            </div>           
+        </div>
+        
+     </section> 
+     <div class="ba-tex-e-button">
+        <div class="ba-text">
+            <h2 class="ba-title">Più di 500.000 team utilizzano Dropbox Business</h2> 
+        </div>
+        <div class="ba-button-box">
+            <a href="" class="ba-button">Trova un partner</a>
+        </div>
+     </div>
+     <!-- fine brand area --> 
+
+     <!-- domande frequenti -->
+     <section class="fq-container">
+        <h2 class="fq-title">Più di 500.000 team utilizzano Dropbox Business</h2>
+        <hr>
+        <div class="fq-dropdown">
+            <span class="block font-size-1-3vh margin-top-2vh margin-bottom-2vh"><strong>Qual è la differenza tra dropbox business standard e Dropbox Busines Advanced?</strong></span>
+            <div class="fq-dropdown-content">
+                <span>Nessuna a parte il notevole incremento nel costo</span>
+            </div>    
+        </div>
+        <hr>
+        <div class="fq-dropdown">
+            <span class="block font-size-1-3vh margin-top-2vh margin-bottom-2vh"><strong>Qual è la differenza tra dropbox business standard e Dropbox Busines Advanced?</strong></span>
+            <div class="fq-dropdown-content">
+                <span>Nessuna a parte il notevole incremento nel costo</span>
+            </div>    
+        </div>
+        <hr>
+        <div class="fq-dropdown">
+            <span class="block font-size-1-3vh margin-top-2vh margin-bottom-2vh"><strong>Qual è la differenza tra dropbox business standard e Dropbox Busines Advanced?</strong></span>
+            <div class="fq-dropdown-content">
+                <span>Nessuna a parte il notevole incremento nel costo</span>
+            </div>    
+        </div>
+        <hr>
+     </section>
+     <!-- fine domande frequenti -->
+
+     <!-- footer -->
+     <section class="foot-container">
+        <div class="foot-column">
+            <h3 class="font-size-2vh margin-bottom-4vh white">Dropbox</h3>
+            <a href="" class="foot-title">Applicazione desktop</a>
+            <a href="" class="foot-title">Perchè Dropbox</a>
+            <a href="" class="foot-title">Piani</a>
+            <a href="" class="foot-title">Sicurezza</a>
+            <a href="" class="foot-title">funzioni</a>
+            <hr>
+            <span class="block grey margin-top-1-5vh"><i class="fa-solid fa-earth-americas"></i> italiano</span>
+        </div>
+        <div class="foot-column">
+            <h3 class="font-size-2vh margin-bottom-4vh white">Dropbox</h3>
+            <a href="" class="foot-title">Applicazione desktop</a>
+            <a href="" class="foot-title">Perchè Dropbox</a>
+            <a href="" class="foot-title">Piani</a>
+            <a href="" class="foot-title">Sicurezza</a>
+            <a href="" class="foot-title">funzioni</a>
+        </div>
+        <div class="foot-column">
+            <h3 class="font-size-2vh margin-bottom-4vh white">Dropbox</h3>
+            <a href="" class="foot-title">Applicazione desktop</a>
+            <a href="" class="foot-title">Perchè Dropbox</a>
+            <a href="" class="foot-title">Piani</a>
+            <a href="" class="foot-title">Sicurezza</a>
+            <a href="" class="foot-title">funzioni</a>
+        </div>
+        <div class="foot-column">
+            <h3 class="font-size-2vh margin-bottom-4vh white">Dropbox</h3>
+            <a href="" class="foot-title">Applicazione desktop</a>
+            <a href="" class="foot-title">Perchè Dropbox</a>
+            <a href="" class="foot-title">Piani</a>
+            <a href="" class="foot-title">Sicurezza</a>
+            <a href="" class="foot-title">funzioni</a>
+        </div>
+        <div class="foot-column">
+            <h3 class="font-size-2vh margin-bottom-4vh white">Dropbox</h3>
+            <a href="" class="foot-title">Applicazione desktop</a>
+            <a href="" class="foot-title">Perchè Dropbox</a>
+            <a href="" class="foot-title">Piani</a>
+            <a href="" class="foot-title">Sicurezza</a>
+            <a href="" class="foot-title">funzioni</a>
+        </div>
+     </section>
  </body>
 
 </html>
